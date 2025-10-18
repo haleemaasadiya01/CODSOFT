@@ -22,6 +22,7 @@ body {
     color: var(--text);
     line-height: 1.6;
     scroll-behavior: smooth;
+    padding-top: 60px;
 }
 
 .container {
@@ -452,6 +453,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+   .body {
+       padding-top: 60px 
+     }
+
    .navbar {
         padding: 12px, 0;
      }
@@ -498,6 +503,10 @@ body {
 }
 
 @media (max-width: 480px) {
+   .body {
+       padding-top: 50px 
+     }
+
     .navbar {
         padding: 10px, 0;
      }
