@@ -487,31 +487,6 @@ body {
 }
 
 @media (max-width: 480px) {
-<<<<<<< HEAD
-
-=======
-   .body {
-       padding-top: 50px 
-     }
-
-    .navbar {
-        padding: 10px, 0;
-     }
-
-   .nav-links  {
-        justify-content: space-around;
-        padding: 8px;
-    }
-
-   .nav-links a {
-        font-size: 0.75rem;
-        padding: 5px, 8px;
-        flex: 1;
-        text-align: center;
-        min-width: 60px;
-    }
-    
->>>>>>> 2ff1388d3995af2c52b98d7de5429c873674f151
     .typing-effect {
         font-size: 2rem;
     }
