@@ -453,7 +453,23 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-
+    body {
+        padding-top: 60px;
+    }
+    
+    .navbar {
+        padding: 12px 0;
+    }
+    
+    .nav-links {
+        gap: 10px;
+        padding: 0 10px;
+    }
+    
+    .nav-links a {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
 
    .typing-effect {
         font-size: 2.5rem;
@@ -487,6 +503,27 @@ body {
 }
 
 @media (max-width: 480px) {
+    body {
+        padding-top: 50px;
+    }
+    
+    .navbar {
+        padding: 10px 0;
+    }
+    
+    .nav-links {
+        gap: 8px;
+        justify-content: space-around;
+    }
+    
+    .nav-links a {
+        font-size: 0.75rem;
+        padding: 5px 8px;
+        flex: 1;
+        text-align: center;
+        min-width: 60px;
+    }
+    
     .typing-effect {
         font-size: 2rem;
     }
